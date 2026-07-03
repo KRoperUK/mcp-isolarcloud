@@ -31,6 +31,17 @@ Or add it to an MCP client (Claude Desktop / Claude Code / etc.):
 
 For Claude Code: `claude mcp add isolarcloud -- uvx mcp-isolarcloud`
 
+### As a Claude Code plugin
+
+This repo is also a Claude Code plugin marketplace, so the MCP server auto-registers when the plugin is enabled — no manual MCP config:
+
+```
+/plugin marketplace add KRoperUK/mcp-isolarcloud
+/plugin install mcp-isolarcloud@mcp-isolarcloud
+```
+
+The plugin runs the published package via `uvx mcp-isolarcloud`.
+
 ## What it exposes
 
 **Tools**

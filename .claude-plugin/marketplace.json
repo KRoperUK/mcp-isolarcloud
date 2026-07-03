@@ -1,0 +1,20 @@
+{
+  "name": "mcp-isolarcloud",
+  "owner": {
+    "name": "KRoperUK",
+    "url": "https://github.com/KRoperUK"
+  },
+  "description": "Distribute the iSolarCloud docs MCP server as a Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "mcp-isolarcloud",
+      "source": "./",
+      "description": "MCP server serving the Sungrow iSolarCloud OpenAPI documentation.",
+      "version": "0.1.0",
+      "author": { "name": "KRoperUK" },
+      "homepage": "https://github.com/KRoperUK/mcp-isolarcloud",
+      "license": "MIT",
+      "keywords": ["mcp", "isolarcloud", "sungrow"]
+    }
+  ]
+}

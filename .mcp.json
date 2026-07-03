@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "isolarcloud": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["mcp-isolarcloud"]
+    }
+  }
+}
