@@ -22,7 +22,7 @@ Issues = "https://github.com/KRoperUK/mcp-isolarcloud/issues"
 mcp-isolarcloud = "mcp_isolarcloud.server:main"
 
 [project.optional-dependencies]
-dev = ["pytest", "ruff==0.15.16"]
+dev = ["pytest", "ruff==0.15.20"]
 
 [build-system]
 requires = ["hatchling"]
