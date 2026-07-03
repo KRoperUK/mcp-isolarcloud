@@ -1,6 +1,6 @@
 [project]
 name = "mcp-isolarcloud"
-version = "0.1.0"
+version = "0.2.0"
 description = "MCP server serving Sungrow iSolarCloud OpenAPI documentation, control-parameter reference and how-to skills."
 readme = "README.md"
 requires-python = ">=3.10"
