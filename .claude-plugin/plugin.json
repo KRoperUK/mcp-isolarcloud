@@ -1,0 +1,14 @@
+{
+  "name": "mcp-isolarcloud",
+  "displayName": "iSolarCloud Docs",
+  "version": "0.1.0",
+  "description": "MCP server serving the Sungrow iSolarCloud OpenAPI documentation, control-parameter reference and how-to skills.",
+  "author": {
+    "name": "KRoperUK",
+    "url": "https://github.com/KRoperUK"
+  },
+  "homepage": "https://github.com/KRoperUK/mcp-isolarcloud",
+  "repository": "https://github.com/KRoperUK/mcp-isolarcloud",
+  "license": "MIT",
+  "keywords": ["mcp", "isolarcloud", "sungrow", "solar", "documentation"]
+}
