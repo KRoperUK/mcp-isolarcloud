@@ -1,0 +1,43 @@
+[project]
+name = "mcp-isolarcloud"
+version = "0.1.0"
+description = "MCP server serving Sungrow iSolarCloud OpenAPI documentation, control-parameter reference and how-to skills."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "KRoperUK" }]
+keywords = ["mcp", "isolarcloud", "sungrow", "solar", "documentation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Home Automation",
+]
+dependencies = ["fastmcp>=2.0.0"]
+
+[project.urls]
+Homepage = "https://github.com/KRoperUK/mcp-isolarcloud"
+Issues = "https://github.com/KRoperUK/mcp-isolarcloud/issues"
+
+[project.scripts]
+mcp-isolarcloud = "mcp_isolarcloud.server:main"
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff==0.15.16"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mcp_isolarcloud"]
+artifacts = ["*.md", "*.json"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "UP", "B", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
